@@ -1,0 +1,330 @@
+P-CAD Design Rule Check Report
+
+======================================================================
+
+C:\Users\User\Desktop\TPKS\Lab04\Lab04.drc:
+
+
+Design Clearances (in   mm):
+-------------------------------
+Silk Screen Clearance:  12.0mil
+Hole-Hole Clearance:    13.0mil
+Board Edge Clearance:   Not Defined
+
+
+Layer Clearances (in   mm):
+-------------------------------
+
+Layer Name          Pad-Pad  Pad-Line Line-Line   Pad-Via  Via-Line   Via-Via
+
+Top                   0.305     0.305     0.305     0.305     0.305     0.305
+Bottom                0.305     0.305     0.305     0.305     0.305     0.305
+
+
+Net Class Clearances (in   mm):
+-------------------------------
+Net Class Name      Pad-Pad  Pad-Line Line-Line   Pad-Via  Via-Line   Via-Via
+
+
+
+Net Clearances (In   mm):
+-------------------------
+Net Name            Pad-Pad  Pad-Line Line-Line   Pad-Via  Via-Line   Via-Via
+
+
+Net Class To Net Class Clearances (in   mm):
+--------------------------------------------
+Net Class Names     Pad-Pad  Pad-Line Line-Line   Pad-Via  Via-Line   Via-Via
+
+
+
+Area Checked:
+-------------
+
+DRC Extents:            Entire Workspace
+
+
+DRC Report Options:
+-------------------
+
+Net List Compare:                       Off
+Clearance Violations:                   On
+Text Violations:                        On
+Same-Parent-Component Pad Violations:   On
+Net List Violations:                    On
+Unrouted Nets:                          On
+Unconnected Pins:                       On
+Net Length Violations:                  On
+Silk Violations:                        On
+Copper Pour Violations:                 On
+Plane Violations:                       On
+Component Violations:                   On
+Drill Violations:                       On
+
+----------------------------------------------------------------------
+
+28-Feb-20  21:43                                            Page    1
+
+P-CAD Design Rule Check Report
+
+======================================================================
+
+Test Point Violations:                  Off
+
+DRC Errors:
+-----------
+
+
+NETLIST VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+CLEARANCE VIOLATIONS:
+
+Error 1 -- Clearance Violation between:
+   * Pad C2-2 at ( 76.500, 90.000) mm [Top layer]
+   * Arc at ( 77.500, 90.000):( 77.500, 90.000) mm [Top layer]
+   * Calculated Clearance: 0.187mm.
+   * Rule: Layer{Top}.PadToLineClearance=12.0mil
+Error 2 -- Clearance Violation between:
+   * Pad C3-1 at ( 95.000,122.500) mm [Top layer]
+   * Arc at (100.000,122.500):(100.000,122.500) mm [Top layer]
+   * Calculated Clearance: 0.187mm.
+   * Rule: Layer{Top}.PadToLineClearance=12.0mil
+Error 3 -- Clearance Violation between:
+   * Pad C3-2 at ( 99.000,122.500) mm [Top layer]
+   * Arc at (100.000,122.500):(100.000,122.500) mm [Top layer]
+   * Calculated Clearance: 0.187mm.
+   * Rule: Layer{Top}.PadToLineClearance=12.0mil
+Error 4 -- Clearance Violation between:
+   * Pad C5-2 at ( 69.000,107.500) mm [Top layer]
+   * Arc at ( 70.000,107.500):( 70.000,107.500) mm [Top layer]
+   * Calculated Clearance: 0.187mm.
+   * Rule: Layer{Top}.PadToLineClearance=12.0mil
+Error 5 -- Clearance Violation between:
+   * Pad C2-1 at ( 72.500, 90.000) mm [Top layer]
+   * Arc at ( 77.500, 90.000):( 77.500, 90.000) mm [Top layer]
+   * Calculated Clearance: 0.187mm.
+   * Rule: Layer{Top}.PadToLineClearance=12.0mil
+Error 6 -- Clearance Violation between:
+   * Pad C1-1 at ( 30.000,100.000) mm [Top layer]
+   * Arc at ( 35.000,100.000):( 35.000,100.000) mm [Top layer]
+   * Calculated Clearance: 0.187mm.
+   * Rule: Layer{Top}.PadToLineClearance=12.0mil
+Error 7 -- Clearance Violation between:
+   * Pad C1-2 at ( 34.000,100.000) mm [Top layer]
+   * Arc at ( 35.000,100.000):( 35.000,100.000) mm [Top layer]
+   * Calculated Clearance: 0.187mm.
+   * Rule: Layer{Top}.PadToLineClearance=12.0mil
+Error 8 -- Clearance Violation between:
+   * Pad C5-1 at ( 65.000,107.500) mm [Top layer]
+   * Arc at ( 70.000,107.500):( 70.000,107.500) mm [Top layer]
+   * Calculated Clearance: 0.187mm.
+   * Rule: Layer{Top}.PadToLineClearance=12.0mil
+
+0 warning(s) detected.
+8 error(s) detected.
+
+----------------------------------------------------------------------
+
+28-Feb-20  21:43                                            Page    2
+
+P-CAD Design Rule Check Report
+
+======================================================================
+
+
+UNROUTED NETS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+UNCONNECTED PINS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+Warning: Net length violation tests were not performed because
+         of missing MinNetLength, MaxNetLength, or MatchedLength rules.
+
+NETLIST LENGTH VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+SILK SCREEN CLEARANCE VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+TEXT VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+WIDTH VIOLATIONS:
+
+Warning: Width violation tests were not performed because
+         of missing Width rule.
+
+0 warning(s) detected.
+0 error(s) detected.
+
+COPPER POUR VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+PLANE VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+COMPONENT VIOLATIONS:
+
+
+0 warning(s) detected.
+
+----------------------------------------------------------------------
+
+28-Feb-20  21:43                                            Page    3
+
+P-CAD Design Rule Check Report
+
+======================================================================
+
+0 error(s) detected.
+
+DRILL VIOLATIONS:
+
+
+0 warning(s) detected.
+0 error(s) detected.
+
+DRC Summary:
+------------
+
+Netlist:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Clearance:
+	Errors:         8
+	Warnings:       0
+	Ignored Errors: 0
+Unrouted Nets:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Unconnected Pins:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Net Length:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Silk Screen:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Text:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Width:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Copper Pour:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Plane:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Component:
+	Errors:         0
+	Warnings:       0
+	Ignored Errors: 0
+Drilling:
+	Errors:         0
+
+----------------------------------------------------------------------
+
+28-Feb-20  21:43                                            Page    4
+
+P-CAD Design Rule Check Report
+
+======================================================================
+
+	Warnings:       0
+	Ignored Errors: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+
+28-Feb-20  21:43                                            Page    5
+
