@@ -1,0 +1,39 @@
+PCAD Importer Log
+Project : RESISTORS.LibPkg
+
+Section : C:\Users\User\Desktop\Altium libs\RESISTORS.LIA
+    Section : PCB Library - RESISTORS.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token RES On Line 149
+            Warning - 1 : Skipping Token RESVAR On Line 174
+            Warning - 1 : Skipping Token attachedSymbol On Line 226
+            Warning - 1 : Skipping Token attachedSymbol On Line 249
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - RESISTORS.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 13
+            Warning - 1 : Skipping Token padStyleDef On Line 23
+            Warning - 1 : Skipping Token viaStyleDef On Line 33
+            Warning - 1 : Skipping Token multiLayer On Line 93
+            Warning - 1 : Skipping Token layerContents On Line 97
+            Warning - 1 : Skipping Token layerContents On Line 100
+            Warning - 1 : Skipping Token multiLayer On Line 114
+            Warning - 1 : Skipping Token layerContents On Line 118
+            Warning - 1 : Skipping Token multiLayer On Line 134
+            Warning - 1 : Skipping Token layerContents On Line 139
+            Warning - 1 : Skipping Token defaultPinDes On Line 157
+            Warning - 1 : Skipping Token defaultPinDes On Line 165
+            Warning - 1 : Skipping Token defaultPinDes On Line 182
+            Warning - 1 : Skipping Token defaultPinDes On Line 190
+            Warning - 1 : Skipping Token defaultPinDes On Line 198
+        EndSection
+
+        Section : Generating SCH Library - RESISTORS.SchLib
+        EndSection
+    EndSection
+EndSection
